@@ -1,0 +1,2 @@
+C:/Users/AnbumaniMuthusamy/Documents/Projects/social_share_pro/example/android/app/.cxx/Debug/e191a5b1/x86/CMakeFiles/edit_cache.dir
+C:/Users/AnbumaniMuthusamy/Documents/Projects/social_share_pro/example/android/app/.cxx/Debug/e191a5b1/x86/CMakeFiles/rebuild_cache.dir
