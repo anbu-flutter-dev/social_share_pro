@@ -1,5 +1,5 @@
 
-# new_social_share
+# social_share_pro
 
 Wide variety of sharing options you'll need to share directly to certain popular apps or just share with default native share.
 
@@ -12,7 +12,7 @@ With this plugin, you can share on Instagram stories and Facebook stories and al
 
 ## Acknowledgment
 
-This package, **new_social_share**, is based on the original work by [ShekarMudaliyar](https://pub.dev/packages/social_share). Many thanks to the creator for their valuable contribution, which inspired the development of this upgraded and enhanced version.
+This package, **social_share_pro**, is based on the original work by [ShekarMudaliyar](https://pub.dev/packages/social_share). Many thanks to the creator for their valuable contribution, which inspired the development of this upgraded and enhanced version.
 
 ## Usage
 
@@ -83,14 +83,14 @@ xmlns:tools="http://schemas.android.com/tools"
 #### shareInstagramStory
 
 ```
-SocialShare.shareInstagramStory(imageFile.path, "#ffffff",
+SocialSharePro.shareInstagramStory(imageFile.path, "#ffffff",
                               "#000000", "https://deep-link-url");
 ```
 
 #### shareInstagramStorywithBackground
 
 ```
-SocialShare.shareInstagramStorywithBackground(image.path, "https://deep-link-url",
+SocialSharePro.shareInstagramStorywithBackground(image.path, "https://deep-link-url",
                               backgroundImagePath: backgroundimage.path);
 ```
 
@@ -99,14 +99,14 @@ SocialShare.shareInstagramStorywithBackground(image.path, "https://deep-link-url
 For iOS:
 
 ```
-SocialShare.shareFacebookStory(image.path,"#ffffff","#000000",
+SocialSharePro.shareFacebookStory(image.path,"#ffffff","#000000",
                               "https://deep-link-url","facebook-app-id");
 ```
 
 For Android (appID is mandatory if using shareFacebookStory or else it won’t work):
 
 ```
-SocialShare.shareFacebookStory(image.path,"#ffffff","#000000",
+SocialSharePro.shareFacebookStory(image.path,"#ffffff","#000000",
                               "https://deep-link-url","facebook-app-id",
                               appId: "xxxxxxxxxxxxx");
 ```
@@ -114,22 +114,22 @@ SocialShare.shareFacebookStory(image.path,"#ffffff","#000000",
 #### copyToClipboard
 
 ```
-SocialShare.copyToClipboard("This is Social Share plugin");
+SocialSharePro.copyToClipboard("This is Social Share plugin");
 ```
 
 #### shareTwitter
 
 ```
 //without hashtags
-SocialShare.shareTwitter("This is Social Share plugin");
+SocialSharePro.shareTwitter("This is Social Share plugin");
 
 //with hashtags
-SocialShare.shareTwitter(
+SocialSharePro.shareTwitter(
     "This is Social Share twitter example",
     hashtags: ["hello", "world", "foo", "bar"]);
 
 //with hashtags and link
-SocialShare.shareTwitter(
+SocialSharePro.shareTwitter(
     "This is Social Share twitter example",
     hashtags: ["hello", "world", "foo", "bar"], url: "https://your-url-here/");
 ```
@@ -138,22 +138,22 @@ SocialShare.shareTwitter(
 
 ```
 //without url link in message
-SocialShare.shareSms("This is Social Share Sms example");
+SocialSharePro.shareSms("This is Social Share Sms example");
 
 //with url link in message
-SocialShare.shareSms("This is Social Share Sms example", url: "https://your-url-here/");
+SocialSharePro.shareSms("This is Social Share Sms example", url: "https://your-url-here/");
 ```
 
 #### shareWhatsapp
 
 ```
-SocialShare.shareWhatsapp("Hello World");
+SocialSharePro.shareWhatsapp("Hello World");
 ```
 
 #### shareTelegram
 
 ```
-SocialShare.shareTelegram("Hello World");
+SocialSharePro.shareTelegram("Hello World");
 ```
 
 #### shareOptions
@@ -162,14 +162,14 @@ This will open the default native share options:
 
 ```
 //without an image
-SocialShare.shareOptions("Hello world");
+SocialSharePro.shareOptions("Hello world");
 
 //with an image
-SocialShare.shareOptions("Hello world", imagePath: image.path);
+SocialSharePro.shareOptions("Hello world", imagePath: image.path);
 ```
 
 #### checkInstalledAppsForShare
 
 ```
-SocialShare.checkInstalledAppsForShare();
+SocialSharePro.checkInstalledAppsForShare();
 ```
